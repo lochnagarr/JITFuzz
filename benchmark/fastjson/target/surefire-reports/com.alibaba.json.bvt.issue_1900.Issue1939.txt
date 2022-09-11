@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.alibaba.json.bvt.issue_1900.Issue1939
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in com.alibaba.json.bvt.issue_1900.Issue1939
+com.alibaba.json.bvt.issue_1900.Issue1939.test_for_issue  Time elapsed: 0.01 s  <<< ERROR!
+javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+	at com.alibaba.json.bvt.issue_1900.Issue1939.test_for_issue(Issue1939.java:27)
+Caused by: java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory
+	at com.alibaba.json.bvt.issue_1900.Issue1939.test_for_issue(Issue1939.java:27)
+
+com.alibaba.json.bvt.issue_1900.Issue1939.test_for_issue_1  Time elapsed: 0.003 s  <<< ERROR!
+javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+	at com.alibaba.json.bvt.issue_1900.Issue1939.test_for_issue_1(Issue1939.java:34)
+Caused by: java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory
+	at com.alibaba.json.bvt.issue_1900.Issue1939.test_for_issue_1(Issue1939.java:34)
+

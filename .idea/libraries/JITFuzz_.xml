@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JITFuzz_">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sootclasses-trunk-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hamcrest.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources.zip!/" />
+      <root url="jar://$PROJECT_DIR$/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-cli-1.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

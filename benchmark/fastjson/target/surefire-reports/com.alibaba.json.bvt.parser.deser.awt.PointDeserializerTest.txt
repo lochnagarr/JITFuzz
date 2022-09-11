@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alibaba.json.bvt.parser.deser.awt.PointDeserializerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.alibaba.json.bvt.parser.deser.awt.PointDeserializerTest

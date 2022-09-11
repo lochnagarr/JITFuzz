@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest
+com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.test_1  Time elapsed: 0 s  <<< ERROR!
+com.alibaba.fastjson.JSONException: create instance error, [Ljava.lang.String;@bb47c89, public com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest$BaseClass2(java.lang.String,java.lang.String,java.lang.Object)
+	at com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.test_1(MixinDeserForMethodsTest.java:56)
+Caused by: java.lang.IllegalAccessException: class com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer cannot access a member of class com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest$BaseClass2 with modifiers "public"
+	at com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.test_1(MixinDeserForMethodsTest.java:56)
+

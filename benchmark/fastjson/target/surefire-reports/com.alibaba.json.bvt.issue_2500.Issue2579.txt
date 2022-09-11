@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.alibaba.json.bvt.issue_2500.Issue2579
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.alibaba.json.bvt.issue_2500.Issue2579
+com.alibaba.json.bvt.issue_2500.Issue2579.test_for_issue1  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.alibaba.json.bvt.issue_2500.Issue2579.run_test(Issue2579.java:50)
+	at com.alibaba.json.bvt.issue_2500.Issue2579.test_for_issue1(Issue2579.java:24)
+
+com.alibaba.json.bvt.issue_2500.Issue2579.test_for_issue2  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: UUID string too large
+	at com.alibaba.json.bvt.issue_2500.Issue2579.run_test(Issue2579.java:41)
+	at com.alibaba.json.bvt.issue_2500.Issue2579.test_for_issue2(Issue2579.java:29)
+

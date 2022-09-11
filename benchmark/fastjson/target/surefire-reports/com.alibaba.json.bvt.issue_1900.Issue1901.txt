@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.alibaba.json.bvt.issue_1900.Issue1901
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in com.alibaba.json.bvt.issue_1900.Issue1901
+com.alibaba.json.bvt.issue_1900.Issue1901.test_for_issue  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<{"time":"[星期四 三]月 22 16:58:37 CST 20...> but was:<{"time":"[周四 3]月 22 16:58:37 CST 20...>
+	at com.alibaba.json.bvt.issue_1900.Issue1901.test_for_issue(Issue1901.java:28)
+
+com.alibaba.json.bvt.issue_1900.Issue1901.test_for_issue_1  Time elapsed: 0.011 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<{"time":"[星期四 三]月 22 16:58:37 CST 20...> but was:<{"time":"[周四 3]月 22 16:58:37 CST 20...>
+	at com.alibaba.json.bvt.issue_1900.Issue1901.test_for_issue_1(Issue1901.java:33)
+
