@@ -17,7 +17,7 @@ c1_RangeCheckElimination.cpp
 c1_Runtime1.cpp
 c1_ValueMap.cpp
 c1_ValueSet.cpp
-c1_ValueSet.
+c1_ValueSet.cpp
 c1_ValueStack.cpp
 c1_ValueType.cpp
 c1_globals.cpp
