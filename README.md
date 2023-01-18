@@ -28,8 +28,9 @@ util:		helper class(utils.Digit)
 2. Build JDK with AFLplusplus
     - Run 
     ```
-    AFL_GCC_ALLOWLIST=./AFL_GCC_ALLOWLIST CC=PATH_TO_AFLPLUSPLUS/afl-gcc-fast CXX=PATH_TO_AFLPLUSPLUS/afl-g++-fast bash configure --enable-debug --disable-warnings-as-errors
-    make images
+    CC=PATH/TO/AFLPLUSPLUS/afl-gcc-fast CXX=PATH/TO/AFLPLUSPLUS/afl-g++-fast bash configure --enable-debug --disable-warnings-as-errors
+    AFL_GCC_ALLOWLIST=PATH/TO/AFL_GCC_ALLOWLIST make images
+    # Please use the full path of AFL_GCC_ALLOWLIST.
     ```
 3. Build JITFuzz
    - You can import it into IntelliJ IDEA workspace
